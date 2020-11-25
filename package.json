@@ -1,0 +1,20 @@
+{
+  "name": "@tosee/color",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fullstackoverflow/color"
+  },
+  "scripts": {
+    "test": "ts-node test/test.ts",
+    "build": "tsc -p tsconfig.production.json",
+    "postversion": "git push --tags"
+  },
+  "author": "tosee",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
