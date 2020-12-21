@@ -21,4 +21,4 @@ jobs:
             - name: AUTH
               run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
             - name: Publish
-              run: npm publish --access public   
+              run: npm publish --access public&&ls   
